@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    background-image: url("https://www.atlasandboots.com/wp-content/uploads/2019/05/ama-dablam2-most-beautiful-mountains-in-the-world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -30rem;
+    height: 100vh;
+    width: 33%;
+    overflow: hidden;
+}
+
+.top {
+    height: 33%;
+    width: 132vh;
+    background-color: #F0F0F4;
+}
+
+.para {
+    padding-top: 8%;
+    padding-left: 60px;
+    font-size: 43px;
+    width: 75%;
+}
+
+.under {
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: 43px;
+}
+
+.middle {
+    height: 34%;
+    width: 100%;
+    box-shadow: 5px 5px 30px -9px #5F6D63;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.form label {
+    float: left;
+    margin-right: 0.5em;
+}
+
+fieldset {
+    border: 0px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    padding: 20px;
+    padding-left: 45px;
+}
+
+.title {
+    padding: 20px;
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight:300;
+}
+
+.bottom {
+    height: calc(33% - 10px);
+    width: 100%;
+    background-color: #F0F0F4;
+}
